@@ -3,5 +3,5 @@
   tasks:
        - name: Content Update
          copy:
-             dest: /tmp/abc.conf
-             content: "This is config of ABC App\n"
+             dest: /tmp/abc_git.conf
+             content: "This is a config of ABC App from Github\n"
